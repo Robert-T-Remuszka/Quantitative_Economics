@@ -15,7 +15,8 @@ struct OptGrowthParams
 end
 
 """
-A function that constructs an instance of OptGrowthParams
+A function that constructs an instance of OptGrowthParams. Preferences and
+technology should be specified in the script which calls this constructor.
 """
 function ConstructParams(;  α::Float64 = 0.4,
                             β::Float64 = 0.96, 
